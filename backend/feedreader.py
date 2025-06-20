@@ -2,6 +2,7 @@ import feedparser
 import sys
 import flask
 from flask import Flask, render_template_string
+from flask_cors import CORS
 
 app = Flask(__name__)
 
